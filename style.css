@@ -1,15 +1,30 @@
+
+#hero {
+    background-color: #1F2937;
+}
+
+
+
 #header-container {
     display: flex;
 }
 
+#logo-container {
+    flex: 1;
+    font-size: 24px;
+    color: #F9FAF8;
+}
 #header-container div {
     flex: 1;
 }
 
 #header-link-container {
     display: flex;
-}
-
-#header-link-container {
     flex: 1;
 }
+
+#header-link-container div p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
